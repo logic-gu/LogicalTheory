@@ -13,14 +13,14 @@
 \subsection{Rules for $\lforall$}
 
 \begin{defish}
-\AxiomC{$!A(a)$}
+\AxiomC{$!\Subst{!A}{t}{x}$}
 \RightLabel{\Intro{\lforall}}
-\UnaryInfC{$\lforall[x][\Atom{!A}{x}]$}
+\UnaryInfC{$\lforall[x][!A]$}
 \DisplayProof
 \hfill
-\AxiomC{$\lforall[x][\Atom{!A}{x}]$}
+\AxiomC{$\lforall[x][{!A}]$}
 \RightLabel{\Elim{\lforall}}
-\UnaryInfC{$!A(t)$}
+\UnaryInfC{$\Subst{!A}{t}{x}$}
 \DisplayProof
 \end{defish}
 
@@ -36,13 +36,13 @@ reasons.}
 \subsection{Rules for $\lexists$}
 
 \begin{defish}
-\AxiomC{$\Atom{!A}{t}$}
+\AxiomC{$\Subst{!A}{t}{x}$}
 \RightLabel{\Intro{\lexists}}
-\UnaryInfC{$\lexists[x][\Atom{!A}{x}]$}
+\UnaryInfC{$\lexists[x][!A]$}
 \DisplayProof
 \hfill
-\AxiomC{$\lexists[x][\Atom{!A}{x}]$}
-\AxiomC{[$\Atom{!A}{a}$]$^n$}
+\AxiomC{$\lexists[x][!A]$}
+\AxiomC{[$\Subst{!A}{a}{x}$]$^n$}
 \DeduceC{$!C$}
 \DischargeRule{\Elim{\lexists}}{n}
 \BinaryInfC{$!C$}
