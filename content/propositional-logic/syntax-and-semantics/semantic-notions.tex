@@ -95,6 +95,14 @@ Prove \olref[pl][syn][sem]{thm:sem-deduction}
 
 We write $!A \Entails !B$ for $\Gamma \Entails !B$ when $\Gamma = \{!A\}$ is a singleton and say that two !!{formula}s are semantically equivalent, $!A \approx !B$, when $!A \Entails !B$ and $!B \Entails !A$, i.e., when $\pValue{v}(!A) = \pValue{v}(!B)$ for all valuations $\pAssign{v}$.
 
+\begin{prop}[Substitution Lemma]\ollabel{prop:substitution-lemma}
+  If \( !A_1 \approx !B_1 \), \dots, \( !A_n \approx !B_n \), then \( \SSubst{!A}{\subst{!A_1}{\Obj p_1},\dots,\subst{!A_n}{\Obj p_n}} \approx \SSubst{!A}{\subst{!B_1}{\Obj p_1},\dots,\subst{!B_n}{\Obj p_n}} \).
+\end{prop}
+
+\begin{proof}
+  Exercise.
+\end{proof}
+
 The following equivalences, known as the De Morgan laws, seem to indicate that the connectives $\land$ and $\lor$ behave in a similar, dual, way. 
   \begin{align*}
     ({!A} \land {!B}) &\approx \lnot(\lnot{!A} \lor \lnot{!B})\\
