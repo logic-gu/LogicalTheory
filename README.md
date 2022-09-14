@@ -1,3 +1,17 @@
+Logical Theory: A remix of The Open Logic Project
+======================
+
+Logical Theory is the lecture notes for the course with the same name
+given by the University of Gothenburg as part of the Master in Logic
+programme. These lecture notes are built from the Open Logic Text 
+written by the 
+<a
+href="https://openlogicproject.org/">Open Logic Project</a>.
+
+The root files for these lecture notes are found in the 
+`courses/logicaltheory` directory on the `logicaltheory` branch.
+
+
 The Open Logic Project
 ======================
 
