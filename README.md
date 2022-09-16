@@ -8,11 +8,16 @@ written by the
 <a
 href="https://openlogicproject.org/">Open Logic Project</a>.
 
+This repository comprises two main branches:
+
+- `master` contains material for the *Logical Theory* textbook
+- `openlogic` tracks the *Open Logic Text*
+
 The root files for these lecture notes are found in the 
-`courses/logicaltheory` directory on the `logicaltheory` branch.
+`courses/logicaltheory` directory.
 
 
-The Open Logic Project
+About the Open Logic Project
 ======================
 
 [![Build
