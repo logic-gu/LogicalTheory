@@ -20,9 +20,6 @@ The root files for these lecture notes are found in the
 About the Open Logic Project
 ======================
 
-[![Build
-Status](https://github.com/OpenLogicProject/OpenLogic/actions/workflows/build.yml/badge.svg)](https://github.com/OpenLogicProject/OpenLogic/actions/workflows/build.yml)
-
 The Open Logic Project is an open source, open access collection of
 materials on advanced logic, aimed mainly at philosophers, but also
 suitable for computer scientists and mathematicians. The text can be
