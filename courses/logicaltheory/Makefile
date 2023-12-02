@@ -14,7 +14,7 @@
 all: open-logic-logicaltheory.pdf
 
 %.pdf : %.tex FORCE_MAKE
-	latexmk -pdf -dvi- -ps- -interaction=nonstopmode $<
+	latexmk -pdf -dvi- -ps- -synctex=1 -interaction=nonstopmode $<
 
 clean:	
 	latexmk -c open-logic-logicaltheory.tex

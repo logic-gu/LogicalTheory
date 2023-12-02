@@ -1,4 +1,7 @@
-% For the sample text, let's redefine the logical connectives
+% Configurations for Logical Theory course
+
+% Document Macros & Commands
+% ===============
 
 %\DeclareDocumentMacro \lnot {\mathord{\neg}}
 
@@ -16,17 +19,32 @@
 
 \DeclareDocumentCommand \Setabs { m m }{\{ #1 \mid #2 \}}
 
-% let's be pretentious about the plural of formula
+% Tokens
+% ======
 
-%\settexttoken{formula}{formula}{formulae}
+% Defaults are taken from open-logic-config.sty
+% Here we adjust some of these
 
-%\settexttoken{subformula}{subformula}{subformulae}
+% - constants are constants:
+
+\settexttoken{constant}{constant}{constants}
+
+% - `predicate`: defaults to "predicate symbol".
+
+% \settexttoken{predicate}{predicate symbol}{predicate symbols}
+
+% - `function`: defaults to "function symbol".
+
+% \settexttoken{function}{function symbol}{function symbols}
 
 \settexttoken{enumerable}{countable}{countable}
 
 \settexttoken{nonenumerable}*{uncountable}{uncountable}
 
 \settexttoken{denumerable}{countably infinite}{countably infinite}
+
+% Tags
+% =====
 
 % make biconditional, verum defined
 
