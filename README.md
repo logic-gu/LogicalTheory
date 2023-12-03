@@ -8,9 +8,9 @@ written by the
 <a
 href="https://openlogicproject.org/">Open Logic Project</a>.
 
-This repository comprises two main branches:
+This repository comprises two primary branches:
 
-- `master` contains material for the *Logical Theory* textbook
+- `main` contains material for the *Logical Theory* textbook
 - `openlogic` tracks the *Open Logic Text*
 
 The root files for these lecture notes are found in the 
